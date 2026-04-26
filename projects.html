@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Swanit Bhawar</title>
+  <meta
+    name="description"
+    content="Projects page of Swanit Bhawar featuring three portfolio projects with descriptions and links."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-projects">
+  <div class="page-shell">
+    <nav class="site-nav" aria-label="Main navigation">
+      <div class="nav-panel">
+        <div class="nav-links">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="about.html">About Me</a>
+          <a class="nav-link" aria-current="page" href="projects.html">Projects</a>
+          <a class="nav-link" href="academic.html">Academic</a>
+          <a class="nav-link" href="certificates.html">Certificates</a>
+          <a class="nav-link" href="contact.html">Contact Me</a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="page-hero inner-hero">
+      <div class="hero-glow hero-glow-left"></div>
+      <div class="hero-glow hero-glow-right"></div>
+      <p class="hero-kicker">Projects</p>
+      <h1 class="page-title">Three worked-on projects across app design, electronics, and Python.</h1>
+      <p class="page-subtitle">
+        These projects reflect my practical work in social-impact app thinking,
+        digital electronics system design, and AI-based safety detection.
+      </p>
+    </header>
+
+    <main class="content-shell">
+      <section class="section-shell">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Project Gallery</p>
+            <h2 class="section-title">Project cards and short summaries.</h2>
+          </div>
+          <p class="section-copy">
+            These three entries show the range of my work: a food rescue app idea, a digital
+            electronics moisture-management system, and a Python-based driver safety project.
+          </p>
+        </div>
+
+        <div class="project-gallery">
+          <article class="project-card">
+            <p class="project-meta">Project 01 | App Project</p>
+            <h3>Mess App</h3>
+            <p>
+              A social-impact app idea that helps mess and hotel owners report leftover food
+              so NGOs or nearby collectors can collect it before it goes to waste.
+            </p>
+            <div class="tag-list">
+              <span class="tag">Social Impact</span>
+              <span class="tag">Food Rescue</span>
+              <span class="tag">App Workflow</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <p class="project-meta">Project 02 | Hardware Project</p>
+            <h3>Smart Moisture Gesture Model for DEE</h3>
+            <p>
+              A digital electronics project for smart moisture management using soil sensing,
+              gesture-based control, logic gates, flip-flops, a relay module, and a water pump.
+            </p>
+            <div class="tag-list">
+              <span class="tag">DEE</span>
+              <span class="tag">Automation</span>
+              <span class="tag">Sensor Logic</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <p class="project-meta">Project 03 | Python Project</p>
+            <h3>AI Drowsiness Detection</h3>
+            <p>
+              A driver-safety project that uses a camera and face detection to identify
+              drowsiness and raise an alert to help avoid accidents.
+            </p>
+            <div class="tag-list">
+              <span class="tag">Python</span>
+              <span class="tag">Face Detection</span>
+              <span class="tag">Driver Safety</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Project Notes</p>
+            <h2 class="section-title">Expanded descriptions for each project.</h2>
+          </div>
+        </div>
+
+        <div class="project-detail-stack">
+          <article class="project-detail" id="mess-app">
+            <p class="project-meta">Project 01</p>
+            <h3>Mess App</h3>
+            <p>
+              This project is designed to reduce food wastage by connecting leftover food from
+              messes or hotels with NGOs or other collectors who can pick it up in time. The
+              workflow focuses on item name, quantity, and location so the response can be fast
+              and practical.
+            </p>
+            <div class="project-stack">
+              <span class="tag">Problem: leftover food waste</span>
+              <span class="tag">Users: mess owners and collectors</span>
+              <span class="tag">Goal: faster pickup coordination</span>
+            </div>
+          </article>
+
+          <article class="project-detail" id="smart-moisture">
+            <p class="project-meta">Project 02</p>
+            <h3>Smart Moisture Gesture Model for DEE</h3>
+            <p>
+              This project is a gesture-controlled smart moisture management system built for
+              digital electronics. It uses a soil moisture sensor, IR gesture sensor, 555 timer,
+              7408 AND gate, 7473 JK flip-flop, relay, and water pump to control irrigation with
+              both automatic and gesture-based logic.
+            </p>
+            <div class="project-stack">
+              <span class="tag">Automatic mode: dry soil starts pump</span>
+              <span class="tag">Gesture mode: wave once ON, wave again OFF</span>
+              <span class="tag">Smart logic: pump works only when soil is dry</span>
+            </div>
+          </article>
+
+          <article class="project-detail" id="drowsiness-detection">
+            <p class="project-meta">Project 03</p>
+            <h3>AI Drowsiness Detection</h3>
+            <p>
+              This driver-safety project uses Python with a camera and face detection to identify
+              whether a driver is becoming sleepy. When drowsiness is detected, the system gives
+              an alert so that accidents can be avoided.
+            </p>
+            <div class="project-stack">
+              <span class="tag">Python implementation</span>
+              <span class="tag">Camera-based monitoring</span>
+              <span class="tag">Alert for accident prevention</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Swanit Bhawar.</p>
+    </footer>
+  </div>
+</body>
+</html>
